@@ -470,6 +470,7 @@ class Pawn implements ChessPlayer {
 
 //Example 2 
 
+/* 
 import java.util.*;
 
 public class Day13 {
@@ -498,4 +499,39 @@ class Bears implements Harbivores, Carnivores {
         System.out.println("Bears has 2 legs ! ");
     }
 
+}
+
+*/
+
+//Static Keyword
+
+import java.util.*;
+
+public class Day13 {
+    public static void main(String[] args) {
+        Student s1 = new Student();
+        s1.schoolName = "ABC";
+        System.out.println(s1.schoolName);
+
+        Student s2 = new Student();
+        s2.schoolName = ""
+        System.out.println(s2.schoolName);
+
+
+    }
+}
+
+class Student {
+    String name;
+    int roll;
+
+    static String schoolName;
+
+    void setName(String name) {
+        this.name = name;
+    }
+
+    void getName() {
+        this.name = name;
+    }
 }
