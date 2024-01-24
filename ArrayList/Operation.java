@@ -29,5 +29,13 @@ public class Operation{
         //Contains element is the operation for cheacking existence of the element in the list
         System.out.println(list1.contains(9));
         System.out.println(list1.contains(11));
+
+        //Size method
+        System.out.println(list1.size());
+
+        //iterate over list
+        for(int i = 0; i<list1.size() ; i++){
+            System.out.println("The value at index "+ i + " is " + list1.get(i));
+        }
     }
 }
