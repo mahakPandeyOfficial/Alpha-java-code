@@ -116,7 +116,7 @@ public class LinkedList{
     public static void main(String [] args){
        LinkedList ll = new LinkedList();
 
-       ll.print();
+       
        ll.addFirst(2);
        ll.print();
        ll.addFirst(1);
