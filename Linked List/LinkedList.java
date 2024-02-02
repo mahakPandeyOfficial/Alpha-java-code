@@ -91,6 +91,7 @@ public class LinkedList{
         return val;
     }
 
+    //Remove from last of list
     public int removeLast(){
         if(size == 0){
             System.out.println("LL is empty!");
@@ -111,6 +112,20 @@ public class LinkedList{
         tail = prev;
         size--;
         return val;
+    }
+    // Iterative Search
+  public static int itrativeSearch(int key){
+        Node temp = head;
+        int i = 0;
+
+        while(temp != null){
+            if(temp.data == key){
+                return i;
+            }
+            temp = temp.next;
+            i++;
+        }
+        return -1;
     }
 
     public static void main(String [] args){
@@ -140,6 +155,9 @@ public class LinkedList{
        //remove last node 
        ll.removeLast();
        ll.print();
+        
+    System.out.println(ll.itrativeSearch(3));   //key found
+       System.out.println(ll.itrativeSearch(10));   //key not found
       
     }
 }
