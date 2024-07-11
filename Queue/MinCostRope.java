@@ -24,6 +24,6 @@ public class MinCostRope{
         long length[] = {4, 2, 7, 6, 9}; //length of 4 ropes individually
         int n = 5; //number of ropes
 
-        System.out.println("Minimum Cost of the Rope is " + minCost(length, n));
+        System.out.println("Minimum Cost of the Rope is " + minCost(length, n));  //62
     }
 }
