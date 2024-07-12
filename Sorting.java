@@ -1,7 +1,7 @@
 import java.util.*;
 
 //BubbleSort 
-public class Day9 {
+public class Sorting {
 
     public static void BubbleSort(int arr[]) {
         for (int turn = 0; turn < arr.length; turn++) {
